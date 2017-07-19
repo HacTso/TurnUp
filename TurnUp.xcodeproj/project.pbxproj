@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC2ADC181F200A860075BD3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2ADC171F200A860075BD3B /* AppDelegate.swift */; };
+		AC2ADC1A1F200A860075BD3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2ADC191F200A860075BD3B /* ViewController.swift */; };
+		AC2ADC1D1F200A860075BD3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2ADC1B1F200A860075BD3B /* Main.storyboard */; };
+		AC2ADC201F200A860075BD3B /* TurnUp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC2ADC1E1F200A860075BD3B /* TurnUp.xcdatamodeld */; };
+		AC2ADC221F200A860075BD3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2ADC211F200A860075BD3B /* Assets.xcassets */; };
+		AC2ADC251F200A860075BD3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2ADC231F200A860075BD3B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC2ADC141F200A860075BD3B /* TurnUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurnUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2ADC171F200A860075BD3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC2ADC191F200A860075BD3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC2ADC1C1F200A860075BD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC2ADC1F1F200A860075BD3B /* TurnUp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TurnUp.xcdatamodel; sourceTree = "<group>"; };
+		AC2ADC211F200A860075BD3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC2ADC241F200A860075BD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC2ADC261F200A860075BD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC2ADC111F200A860075BD3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC2ADC0B1F200A860075BD3B = {
+			isa = PBXGroup;
+			children = (
+				AC2ADC161F200A860075BD3B /* TurnUp */,
+				AC2ADC151F200A860075BD3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC2ADC151F200A860075BD3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC2ADC141F200A860075BD3B /* TurnUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC2ADC161F200A860075BD3B /* TurnUp */ = {
+			isa = PBXGroup;
+			children = (
+				AC2ADC171F200A860075BD3B /* AppDelegate.swift */,
+				AC2ADC191F200A860075BD3B /* ViewController.swift */,
+				AC2ADC1B1F200A860075BD3B /* Main.storyboard */,
+				AC2ADC211F200A860075BD3B /* Assets.xcassets */,
+				AC2ADC231F200A860075BD3B /* LaunchScreen.storyboard */,
+				AC2ADC261F200A860075BD3B /* Info.plist */,
+				AC2ADC1E1F200A860075BD3B /* TurnUp.xcdatamodeld */,
+			);
+			path = TurnUp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC2ADC131F200A860075BD3B /* TurnUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2ADC291F200A860075BD3B /* Build configuration list for PBXNativeTarget "TurnUp" */;
+			buildPhases = (
+				AC2ADC101F200A860075BD3B /* Sources */,
+				AC2ADC111F200A860075BD3B /* Frameworks */,
+				AC2ADC121F200A860075BD3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurnUp;
+			productName = TurnUp;
+			productReference = AC2ADC141F200A860075BD3B /* TurnUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC2ADC0C1F200A860075BD3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kris Cho";
+				TargetAttributes = {
+					AC2ADC131F200A860075BD3B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7R58ZU2UF3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AC2ADC0F1F200A860075BD3B /* Build configuration list for PBXProject "TurnUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC2ADC0B1F200A860075BD3B;
+			productRefGroup = AC2ADC151F200A860075BD3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC2ADC131F200A860075BD3B /* TurnUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC2ADC121F200A860075BD3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2ADC251F200A860075BD3B /* LaunchScreen.storyboard in Resources */,
+				AC2ADC221F200A860075BD3B /* Assets.xcassets in Resources */,
+				AC2ADC1D1F200A860075BD3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC2ADC101F200A860075BD3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2ADC1A1F200A860075BD3B /* ViewController.swift in Sources */,
+				AC2ADC201F200A860075BD3B /* TurnUp.xcdatamodeld in Sources */,
+				AC2ADC181F200A860075BD3B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC2ADC1B1F200A860075BD3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC2ADC1C1F200A860075BD3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC2ADC231F200A860075BD3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC2ADC241F200A860075BD3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC2ADC271F200A860075BD3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC2ADC281F200A860075BD3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC2ADC2A1F200A860075BD3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7R58ZU2UF3;
+				INFOPLIST_FILE = TurnUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kris.TurnUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC2ADC2B1F200A860075BD3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7R58ZU2UF3;
+				INFOPLIST_FILE = TurnUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kris.TurnUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC2ADC0F1F200A860075BD3B /* Build configuration list for PBXProject "TurnUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2ADC271F200A860075BD3B /* Debug */,
+				AC2ADC281F200A860075BD3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2ADC291F200A860075BD3B /* Build configuration list for PBXNativeTarget "TurnUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2ADC2A1F200A860075BD3B /* Debug */,
+				AC2ADC2B1F200A860075BD3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC2ADC1E1F200A860075BD3B /* TurnUp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC2ADC1F1F200A860075BD3B /* TurnUp.xcdatamodel */,
+			);
+			currentVersion = AC2ADC1F1F200A860075BD3B /* TurnUp.xcdatamodel */;
+			path = TurnUp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC2ADC0C1F200A860075BD3B /* Project object */;
+}
