@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		AC2ADC181F200A860075BD3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2ADC171F200A860075BD3B /* AppDelegate.swift */; };
-		AC2ADC1A1F200A860075BD3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2ADC191F200A860075BD3B /* ViewController.swift */; };
 		AC2ADC1D1F200A860075BD3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2ADC1B1F200A860075BD3B /* Main.storyboard */; };
 		AC2ADC201F200A860075BD3B /* TurnUp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC2ADC1E1F200A860075BD3B /* TurnUp.xcdatamodeld */; };
 		AC2ADC221F200A860075BD3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2ADC211F200A860075BD3B /* Assets.xcassets */; };
 		AC2ADC251F200A860075BD3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2ADC231F200A860075BD3B /* LaunchScreen.storyboard */; };
+		AC2ADC2D1F200B3F0075BD3B /* DrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2ADC2C1F200B3F0075BD3B /* DrinkViewController.swift */; };
+		AC2ADC301F2016570075BD3B /* DrinkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2ADC2F1F2016570075BD3B /* DrinkTableViewController.swift */; };
+		AC2ADC321F2028380075BD3B /* turnUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2ADC311F2028380075BD3B /* turnUpModel.swift */; };
+		AC2ADC351F203D080075BD3B /* ShowDrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2ADC341F203D070075BD3B /* ShowDrinkViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC2ADC141F200A860075BD3B /* TurnUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurnUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC2ADC171F200A860075BD3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC2ADC191F200A860075BD3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC2ADC1C1F200A860075BD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC2ADC1F1F200A860075BD3B /* TurnUp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TurnUp.xcdatamodel; sourceTree = "<group>"; };
 		AC2ADC211F200A860075BD3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC2ADC241F200A860075BD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC2ADC261F200A860075BD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2ADC2C1F200B3F0075BD3B /* DrinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrinkViewController.swift; path = ../DrinkViewController.swift; sourceTree = "<group>"; };
+		AC2ADC2F1F2016570075BD3B /* DrinkTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrinkTableViewController.swift; path = ../DrinkTableViewController.swift; sourceTree = "<group>"; };
+		AC2ADC311F2028380075BD3B /* turnUpModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = turnUpModel.swift; sourceTree = "<group>"; };
+		AC2ADC341F203D070075BD3B /* ShowDrinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDrinkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +62,9 @@
 		AC2ADC161F200A860075BD3B /* TurnUp */ = {
 			isa = PBXGroup;
 			children = (
+				AC2ADC2E1F200B440075BD3B /* controllers */,
+				AC2ADC331F2028400075BD3B /* models */,
 				AC2ADC171F200A860075BD3B /* AppDelegate.swift */,
-				AC2ADC191F200A860075BD3B /* ViewController.swift */,
 				AC2ADC1B1F200A860075BD3B /* Main.storyboard */,
 				AC2ADC211F200A860075BD3B /* Assets.xcassets */,
 				AC2ADC231F200A860075BD3B /* LaunchScreen.storyboard */,
@@ -65,6 +72,24 @@
 				AC2ADC1E1F200A860075BD3B /* TurnUp.xcdatamodeld */,
 			);
 			path = TurnUp;
+			sourceTree = "<group>";
+		};
+		AC2ADC2E1F200B440075BD3B /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC2ADC2C1F200B3F0075BD3B /* DrinkViewController.swift */,
+				AC2ADC2F1F2016570075BD3B /* DrinkTableViewController.swift */,
+				AC2ADC341F203D070075BD3B /* ShowDrinkViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		AC2ADC331F2028400075BD3B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				AC2ADC311F2028380075BD3B /* turnUpModel.swift */,
+			);
+			name = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC2ADC1A1F200A860075BD3B /* ViewController.swift in Sources */,
+				AC2ADC301F2016570075BD3B /* DrinkTableViewController.swift in Sources */,
+				AC2ADC2D1F200B3F0075BD3B /* DrinkViewController.swift in Sources */,
+				AC2ADC351F203D080075BD3B /* ShowDrinkViewController.swift in Sources */,
+				AC2ADC321F2028380075BD3B /* turnUpModel.swift in Sources */,
 				AC2ADC201F200A860075BD3B /* TurnUp.xcdatamodeld in Sources */,
 				AC2ADC181F200A860075BD3B /* AppDelegate.swift in Sources */,
 			);
@@ -308,6 +336,7 @@
 				AC2ADC2B1F200A860075BD3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
