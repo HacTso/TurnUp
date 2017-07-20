@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1F9AB91F20690B000E4019 /* FavoriteDrinksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1F9AB81F20690B000E4019 /* FavoriteDrinksTableViewController.swift */; };
+		0C3BEC4D1F20746D00F64F0E /* ShowFavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3BEC4C1F20746D00F64F0E /* ShowFavViewController.swift */; };
 		AC2ADC181F200A860075BD3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2ADC171F200A860075BD3B /* AppDelegate.swift */; };
 		AC2ADC1D1F200A860075BD3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2ADC1B1F200A860075BD3B /* Main.storyboard */; };
 		AC2ADC201F200A860075BD3B /* TurnUp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC2ADC1E1F200A860075BD3B /* TurnUp.xcdatamodeld */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C1F9AB81F20690B000E4019 /* FavoriteDrinksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteDrinksTableViewController.swift; sourceTree = "<group>"; };
+		0C3BEC4C1F20746D00F64F0E /* ShowFavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowFavViewController.swift; sourceTree = "<group>"; };
 		AC2ADC141F200A860075BD3B /* TurnUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurnUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC2ADC171F200A860075BD3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC2ADC1C1F200A860075BD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 				AC2ADC2C1F200B3F0075BD3B /* DrinkViewController.swift */,
 				AC2ADC2F1F2016570075BD3B /* DrinkTableViewController.swift */,
 				AC2ADC341F203D070075BD3B /* ShowDrinkViewController.swift */,
+				0C1F9AB81F20690B000E4019 /* FavoriteDrinksTableViewController.swift */,
+				0C3BEC4C1F20746D00F64F0E /* ShowFavViewController.swift */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -168,9 +174,11 @@
 				AC2ADC301F2016570075BD3B /* DrinkTableViewController.swift in Sources */,
 				AC2ADC2D1F200B3F0075BD3B /* DrinkViewController.swift in Sources */,
 				AC2ADC351F203D080075BD3B /* ShowDrinkViewController.swift in Sources */,
+				0C3BEC4D1F20746D00F64F0E /* ShowFavViewController.swift in Sources */,
 				AC2ADC321F2028380075BD3B /* turnUpModel.swift in Sources */,
 				AC2ADC201F200A860075BD3B /* TurnUp.xcdatamodeld in Sources */,
 				AC2ADC181F200A860075BD3B /* AppDelegate.swift in Sources */,
+				0C1F9AB91F20690B000E4019 /* FavoriteDrinksTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
