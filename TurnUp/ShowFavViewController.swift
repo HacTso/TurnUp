@@ -1,14 +1,14 @@
 //
-//  ShowDrinkViewController.swift
+//  ShowFavViewController.swift
 //  TurnUp
 //
-//  Created by Kris Cho on 19/7/2017.
+//  Created by Placoderm on 7/19/17.
 //  Copyright © 2017 Kris Cho. All rights reserved.
 //
 
 import UIKit
 
-class ShowDrinkViewController: UIViewController {
+class ShowFavViewController: UIViewController {
 
     var drink = NSDictionary()
     
@@ -20,24 +20,6 @@ class ShowDrinkViewController: UIViewController {
     @IBOutlet weak var drinkIngredient5: UILabel!
     @IBOutlet weak var drinkIngredient6: UILabel!
     @IBOutlet weak var showInstructionsLabel: UITextView!
-    
-    @IBAction func backButtonPressed(_ sender: UIBarButtonItem) {
-        self.dismiss(animated: true, completion: nil)
-    }
-    @IBAction func addFavoriteButtonPressed(_ sender: UIButton) {
-        
-        turnUpModel.addDrinkToFavorites(drink: drink, completionHandler: {
-            data,response, error in
-            
-            do {
-                if let d = data {
-                    print (d)
-                }
-            } catch {
-                print ("Something went wrong with adding favorite drink")
-            }
-        })
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -73,7 +55,7 @@ class ShowDrinkViewController: UIViewController {
         //ingredient 3
         if let ingredient3 = drink["strIngredient3"] {
             if let measure3 = drink["strMeasure3"] {
-
+                
                 drinkIngredient3?.text = "\(measure3)\(ingredient3)"
             } else {
                 drinkIngredient3?.text = drink["strIngredient3"]! as? String
@@ -121,10 +103,7 @@ class ShowDrinkViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        
+        // Dispose of any resources that can be recreated.
     }
-    
-    
-
 
 }

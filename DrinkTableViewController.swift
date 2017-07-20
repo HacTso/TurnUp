@@ -11,13 +11,8 @@ import UIKit
 class DrinkTableViewController: UITableViewController {
     
     var searchText: String = ""
-    
     var searchType: String = ""
-    
     var drinks = [NSDictionary]()
-    
-    
-    
     
     
     @IBAction func backButtonPressed(_ sender: UIBarButtonItem) {
@@ -38,7 +33,7 @@ class DrinkTableViewController: UITableViewController {
                         let resultsArray = results as! [NSDictionary]
                         self.drinks = resultsArray
                         self.tableView.reloadData()
-                        print (self.drinks)
+                        //print (self.drinks)
                         
                     }
                 }
@@ -53,11 +48,27 @@ class DrinkTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        print("search Text: \(searchText), searchType: \(searchType)")
-        
   
     }
 
+    
+    //listen for user to click on accessory button
+    override func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
+        
+        performSegue(withIdentifier: "ShowOneDrink", sender: indexPath)
+        
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let nav = segue.destination as! UINavigationController
+        let vc = nav.topViewController as! ShowDrinkViewController
+        
+        if let the_sender = sender as! IndexPath? {
+            vc.drink = drinks[the_sender.row]
+        }
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
